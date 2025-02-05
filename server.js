@@ -1,7 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import configDB from "./config/dbConfig.js";
-import router from "./src/router.js";
+import router from "./routes/router.js";
 const app = express();
 
 //middleware
